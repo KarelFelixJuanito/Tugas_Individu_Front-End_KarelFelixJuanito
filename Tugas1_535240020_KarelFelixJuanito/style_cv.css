@@ -1,0 +1,69 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.fotoCV {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.biodata {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-column {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.right-column {
+    width: 65%;
+}
+
+.section h2 {
+    border-bottom: 2px solid #000000;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 9px;
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .biodata {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding-right: 0;
+    }
+}
